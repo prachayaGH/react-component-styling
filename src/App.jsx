@@ -13,10 +13,10 @@ function App() {
       <hr />
       <div className="alert-components-section">
         {/* Render ตัว Alert 4 แบบ */}
-        <Alert type="error" text="This is error alert box"/>
-        <Alert type="warning" text="This is warning alert box"/>
-        <Alert type="info" text="This is info alert box"/>
-        <Alert type="success" text="This is success alert box"/>
+        <Alert type="error"/>
+        <Alert type="warning"/>
+        <Alert type="info"/>
+        <Alert type="success"/>
       </div>
     </div>
   );
